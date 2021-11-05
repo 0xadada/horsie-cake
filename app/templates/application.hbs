@@ -1,5 +1,8 @@
 {{page-title "Asdf"}}
 
-<h2 id="title">Welcome to Ember</h2>
+<HelloMsg
+  @msg="you two!"
+  @greeting={{this.greeting}}
+  @updateGreeting={{this.updateGreeting}} />
 
 {{outlet}}
